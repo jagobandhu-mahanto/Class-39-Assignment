@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* fixed css */
+
+.left-float{
+    float: left;
+}
+.right-float{
+    float: right;
+}
+.clear-fix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.img{
+    max-width: 100%;
+}
+/* header section css */
+.header-menu{
+    background: #22c3a3;
+}
+.left-part{
+    width: 46%;
+}
+.left-part a{
+    display: inline-block;
+    color: #fff;
+    font-size: 28px;
+    margin-left: 81px;
+    line-height: 56px;
+    text-decoration: none;
+}
+.right-part{
+    margin-right: 105px;
+    width: 45%;
+}
+.right-part ul{
+    list-style: none;
+}
+.right-part ul li{
+    display: inline-block;
+}
+.right-part ul li a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 10px;
+    margin: 0 10px;
+    color: #ddd;
+    line-height: 36px;
+    transition: .5s;
+}
+.right-part ul li:hover > a{
+    color: #fff;
+}
+/* banner section css */
+.banner-section{
+    background: url(https://i.ibb.co/YNn1hN0/assfignmentj.png);
+    background-size: cover;
+    padding: 200px 0;
+    text-align: center;
+    background-attachment: fixed;
+}
+.banner-section h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.banner-section p {
+    color: #ddd;
+    font-size: 25px;
+    margin-bottom: 56px;
+}
+.banner-section .button {
+    text-decoration: none;
+    color: #ddd;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 9px 15px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    transition: .3s;
+}
+.banner-section .button:hover{
+    background: #fff;
+    color: #0abc9a;
+}
+/* service section css */
+.service-section{
+    text-align: center;
+    background: #fff;
+    padding: 50px;
+    border-bottom: 2px solid #22c3a3;
+}
+.service-title h1 {
+    font-size: 37px;
+    font-weight: 300;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.service-title p {
+    color: #948f99;
+}
+.services-element{
+    margin-bottom: 60px;
+}
+.services-inner-item {
+    margin-top: 68px;
+    width: 23%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.services-inner-item span {
+    display: block;
+    height: 60px;
+    width: 60px;
+    color: #0DBF9B;
+    margin: auto;
+    font-size: 35px;
+    line-height: 60px;
+    border-radius: 20px 0 20px 0;
+}
+.services-inner-item h3 {
+    margin: 20px 0;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.services-inner-item p {
+    color: #948f99;
+}
+/* about section css */
+.about-section{
+    text-align: center;
+    background: #fff;
+    padding: 50px;
+}
+.about-title h1 {
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 41px;
+    text-transform: capitalize;
+}
+.about-title p {
+    color: #948f99;
+}
+.abouts-element{
+    text-align: left;
+    margin-top: 70px;
+}
+.left-abouts-elements {
+    width: 40%;
+    margin-right: 15px;
+}
+.left-abouts-elements img{
+    width: 100%;
+}
+.right-abouts-elements{
+    width: 55%;
+    margin-top: -11px;
+}
+.right-abouts-elements h2 {
+    font-weight: 500;
+    font-size: 27px;
+    margin-bottom: 10px;
+    color: #868095;
+    text-transform: capitalize;
+}
+.right-abouts-elements p{
+   color: #948f99;
+   margin-bottom: 25px;
+}
+/* contact section css */
+.contact-section{
+    background: #f6f6f6;
+    padding: 50px;
+    text-align: center;
+}
+.contact-title h1 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+}
+.contact-title p {
+    color: #948f99;
+}
+.contacts-item{
+    margin-top: 50px;
+}
+.contacs-inner-item{
+    width: 33.3%;
+}
+.contacs-inner-item span {
+    color: #0cbf98;
+    font-size: 27px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.contacs-inner-item p {
+    color: #948f99;
+}
+/* footer section css */
+
+
+.footer-section{
+    background: #0dbf9b;
+    padding: 10px 0;
+}
+.footer-section-item{
+    text-align: center;
+}
+.footer-section-item ul{
+    list-style: none;
+}
+.footer-section-item ul li{
+    display: inline-block;
+}
+.footer-section-item ul li a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 12px;
+    font-size: 26px;
+}
+.lower-footer{
+    background: #222222;
+    text-align: center;
+}
+.lower-footer p {
+    color: #474541;
+    padding: 15px 0;
+    font-size: 20px;
+}
+.lower-footer p a{
+    text-decoration: none;
+    color: #474541;
+}

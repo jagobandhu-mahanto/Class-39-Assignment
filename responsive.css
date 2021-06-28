@@ -1,0 +1,79 @@
+@media (max-width:1366px) {
+
+}
+@media (max-width:1230px) {
+    .left-part {
+        width: 27%;
+    }
+    .left-part a {
+        font-size: 22px;
+    }
+    .right-part ul li a {
+        margin: auto;
+    }
+    .left-abouts-elements {
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    .right-abouts-elements {
+        width: 100%;
+        text-align: center;
+    }
+    .services-inner-item h3 {
+        font-size: 22px;
+    }
+    .banner-section h1 {
+        font-size: 45px;
+    }
+    .banner-section p {
+        font-size: 18px;
+    }
+}
+@media (max-width:956px) {
+    .right-part {
+        width: 58%;
+        margin: auto;
+    }
+    .left-part {
+        width: 30%;
+        margin: auto;
+    }
+    .left-part a {
+        font-size: 20px;
+    }
+    .banner-section h1 {
+        font-size: 40px;
+    }
+    .banner-section p {
+        font-size: 15px;
+    }
+
+}
+@media (max-width:800px) {
+    .left-part {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    .left-part a {
+        font-size: 30px;
+        margin: auto;
+    }
+    .right-part {
+        width: 100%;
+        text-align: center;
+    }
+    .right-part ul li a {
+        font-size: 22px;
+    }
+    .services-inner-item {
+        width: 100%;
+    }
+    .banner-section h1 {
+        font-size: 36px;
+    }
+    .contacs-inner-item {
+        width: 100%;
+        padding: 20px;
+    }
+}
